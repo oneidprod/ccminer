@@ -3542,7 +3542,7 @@ int main(int argc, char *argv[])
 	}
 
 	if (opt_algo == ALGO_EQUIHASH) {
-		opt_extranonce = false; // disable subscribe
+		opt_extranonce = true; // enable subscribe
 	}
 
 
